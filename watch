@@ -1,0 +1,22 @@
+
+> api-solid@1.0.0 test
+> vitest run
+
+
+ RUN  v0.29.8 /home/interas/Cursos/API-SOLID
+
+ ✓ src/use-case/errors/authenticate.spec.ts  (2 tests) 36ms
+ ❯ src/use-case/register.spec.ts  (3 tests | 1 failed) 47ms
+   ❯ src/use-case/register.spec.ts > should not be able to register with same email twice
+     → E-mail already exists.
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  1 failed | 4 passed (5)
+   Start at  20:35:01
+   Duration  493ms (transform 107ms, setup 0ms, collect 180ms, tests 83ms)
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
